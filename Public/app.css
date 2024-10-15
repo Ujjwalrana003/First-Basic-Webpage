@@ -1,0 +1,69 @@
+.card-container{
+    height:180px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cards{
+    height:100%;
+    width:65%;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card1{
+    height:80%;
+    width:45%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid orange;
+    padding:10px;
+    /* object-fit: contain; */
+    /* background-color: blanchedalmond; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSARqQlPk5XwWGyHwe_7e9MnaAmhD5S86NvrA&s");
+    /* filter: blur(3px); */
+    
+}
+.card1 button{
+    height: 40px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(1, 70, 180);
+    cursor:pointer;
+}
+
+.card2{
+    height:80%;
+    width:45%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border:2px solid orange;
+    padding: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToLBxS4ynC8uCOCO3iGOXuHCOVz4P-n9zXaQ&s");
+    /* background-color: red; */
+    
+
+}
+
+.card2 button{
+    height: 40px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(1, 70, 180);
+    cursor: pointer;;
+}
+
+
+.card-main-content{
+    height: 100px;
+    /* -webkit-backdrop-filter: blur(2px); */
+    backdrop-filter: blur(2px);
+}

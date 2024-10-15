@@ -1,0 +1,65 @@
+.country-card-container{
+    height:100vh;
+    width:100%;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+}
+
+.country-card{
+    height: 80%;
+    width: 50%;
+    margin-top: 3%;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px lightblue;
+    background-color: azure;
+    &:hover{
+        box-shadow: 6px 6px 8px rgb(79, 78, 78);
+    }
+}
+
+.country-card form{
+    margin-top: 3%;
+    margin-left: 5%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+.country-card form img{
+    height: 25px;
+    width: 30px;
+    border-radius: 50%;
+
+
+}
+
+.country-card form button{
+    background-color: azure;
+    border: none;
+    
+}
+
+.country-card form button input{
+    height: 28px;
+    width: 80px;
+    font-size: 16px;
+    font-weight:500 ;
+    border: none;
+    background-color: azure;
+    &:hover{
+        cursor: pointer;
+        border: none;
+        background-color: rgb(232, 207, 255);
+        border-radius: 30px;
+        
+    }
+}
+
+h2{
+    margin-top: 2%;
+    margin-left: 2%;
+    /* font-weight: 900; */
+
+}
